@@ -1,0 +1,12 @@
+# settings.rpy
+
+init python:
+    # Создаем модуль для хранения настроек
+    class Settings(object):
+        def __init__(self):
+            # Устанавливаем язык по умолчанию
+            self.language = "default_language"
+
+# Этот блок будет запускаться при старте игры и создаст объект настроек
+python hide:
+    settings = Settings()

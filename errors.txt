@@ -1,0 +1,34 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 81: python block expects a non-empty block.
+    init python:
+                ^
+
+File "game/script.rpy", line 82: expected statement.
+    config.screen_width = 800 
+                        ^
+
+File "game/script.rpy", line 83: expected statement.
+    config.screen_height = 600 
+                         ^
+
+File "game/script.rpy", line 94: expected statement.
+    mousearea (100, 100, 200, 200) hovered True
+                                               ^
+
+File "game/script.rpy", line 95: expected statement.
+    mousearea (100, 100, 200, 200) unhovered False
+                                                  ^
+
+File "game/script.rpy", line 97: if statement expects a non-empty block.
+    if hovered:
+               ^
+
+File "game/script.rpy", line 100: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    define psycho_points = 0
+    ^
+
+Ren'Py Version: Ren'Py 8.2.1.24030407
+Sat May 11 05:43:31 2024
